@@ -2,7 +2,6 @@
 / [Shiny Apps](#shiny-apps) 
 / [Software](#software) 
 / [Presentations](#presentations) 
-/ [Resources](#Resources) 
 / [Workshops](#workshops)
 
 
