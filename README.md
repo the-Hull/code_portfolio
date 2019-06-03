@@ -19,7 +19,10 @@ This repository contains (links to) code and/or data products I've developed in 
 * [**Birmingham Institute of Forest Research** (BIFoR)](https://www.birmingham.ac.uk/research/activity/bifor/index.aspx) Data Expliration Platform: 
 **link**: [https://aglhurley.shinyapps.io/bifor/](https://aglhurley.shinyapps.io/bifor/)
 This in-devolopment `shiny` app is being buitl for the institute's staff as an exploration and data download portal, as well as for outreach and educational purposes. 
-It was demonstrated at an outreach and education exchange workshop with members from UK higher education institutions. 
+It was demonstrated at an outreach and education exchange workshop with members from UK higher education institutions.  
+
+![](./doc/img/shiny_app_bifor.png)
+<img src = "/doc/img/shiny_app_bifor.png" width=640>
 
 ## Software
 
