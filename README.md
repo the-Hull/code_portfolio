@@ -32,7 +32,7 @@ It was demonstrated at an outreach and education exchange workshop with members 
 R` package to acknowledge other `R` packages. 
 It allows to search for and cite all packages used in a file, directory or `RStudio` project via calls to `library()`, `require()` or using the `::` operator notation. It includes a shiny interface to select specific packages and save them to a text or `.bib` file. 
 Future improvements will include the ability to supply a bibliography style file, and copying the output to the clipboard.  
-**link**: [GitHub](https://github.com/the-Hull/lib2bib); [package site](https://the-hull.github.io/lib2bib/index.html)
+**links**: [GitHub](https://github.com/the-Hull/lib2bib) // [package site](https://the-hull.github.io/lib2bib/index.html)
 
 <a href="/doc/img/lib_interactive.png"><img src="/doc/img/lib_interactive.png" width="600"></a>
 
@@ -42,7 +42,7 @@ Future improvements will include the ability to supply a bibliography style file
 Row and Position Tracheid Organizer in R.
 `R` package for wood anatomical analyses, allowing to pre-process, filter and extract cell properties from wood thinsections, significantly simplifying the process of extracting information for further processing.
 My role in this package was to refactor and re-structure code to ensure compliance with CRAN requirements and best-practices.  
-**links**: [GitHub](https://github.com/the-Hull/raptor); [CRAN](https://cran.r-project.org/web/packages/RAPTOR/index.html); [accompanying publication (*Dendrochronologia*)](https://www.sciencedirect.com/science/article/pii/S1125786517301236)
+**links**: [GitHub](https://github.com/the-Hull/raptor) //  [CRAN](https://cran.r-project.org/web/packages/RAPTOR/index.html) // [accompanying publication (*Dendrochronologia*)](https://www.sciencedirect.com/science/article/pii/S1125786517301236)
 
 
 ## Presentations
