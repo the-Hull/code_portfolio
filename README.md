@@ -39,7 +39,7 @@ uk_nest %>% head(20)
 ```
 <img src="/doc/img/code_example_rhydro.png" width="600" align="middle" />
 
-#### Scheduled/triggered version-control of a repository
+#### Scheduled/triggered version-control and management of a repository
 
 This script, as part of a automated, report-generation workflow, uses `git2r` to push results (parameterized reports) from a hosted instance of `R` on `TravisCI` back to a GitHub repository with encrypted authentification tokens.  
 **links:** [Code (raw)]() // [GitHub repository (task automation)](https://github.com/the-Hull/02_task_automation/) (see [this presentation for more](https://hydrosoc.github.io/rhydro_EGU19/presentations/06_task_automation/06_task_automation.html#1))
@@ -49,6 +49,9 @@ This script, as part of a automated, report-generation workflow, uses `git2r` to
 repo <- git2r::repository(".")
 repo_url <- "https://github.com/the-Hull/02_task_automation.git"
 git2r::remote_add(repo, name = "taskauto", url = repo_url)
+
+# set user info for the hosted instance
+# user name is used to check for manual vs. triggered actions
 git2r::config(repo,
               user.email = "aghu@aghu.com",
               user.name = "travishull")
