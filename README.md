@@ -45,10 +45,14 @@ My role in this package was to refactor and re-structure code to ensure complian
 **links**: [GitHub](https://github.com/the-Hull/raptor) //  [CRAN](https://cran.r-project.org/web/packages/RAPTOR/index.html) // [accompanying publication (*Dendrochronologia*)](https://www.sciencedirect.com/science/article/pii/S1125786517301236)
 
 
-## Presentations
+## Presentations*
 
-* **Introduction to R** - project set-up, data management and coding **(2015)**  
-This presentation was delivered in the water science department during a dedicated seminar at University of Birmingham.  
-[**link to PDF**](/doc/presentations/Introduction-to-R.pdf)
+* **Introduction to R - project set-up, data management and coding** (2015). 
+This presentation was delivered to the physical geography department during a dedicated seminar at University of Birmingham.  
+[**link to slides (PDF)**](/doc/presentations/Introduction-to-R.pdf)
+
+* **Intro to project management with git, GitHub and RStudio** (2018).  
+This presentation was delivered to the water science research group during a dedicated seminar at University of Birmingham and included live coding sessions.
+[**link to slides (react.js)**](https://the-hull.github.io/intro_projects/)
 
 ## Workshops
