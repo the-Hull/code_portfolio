@@ -48,11 +48,15 @@ My role in this package was to refactor and re-structure code to ensure complian
 ## Presentations*
 
 * **Introduction to R - project set-up, data management and coding** (2015). 
-This presentation was delivered to the physical geography department during a dedicated seminar at University of Birmingham.  
+This presentation was delivered to the physical geography department during a dedicated seminar at University of Birmingham. The focus was set presenting approaches to ensure projects were set up in a coherent, machine-readable and reproducible manner.
 [**link to slides (PDF)**](/doc/presentations/Introduction-to-R.pdf)
 
 * **Intro to project management with git, GitHub and RStudio** (2018).  
-This presentation was delivered to the water science research group during a dedicated seminar at University of Birmingham and included live coding sessions.
-[**link to slides (react.js)**](https://the-hull.github.io/intro_projects/)
+This presentation was delivered to the water science research group during a dedicated seminar at University of Birmingham and included best practices in version controlling, project set-up, reproducible workflows and live coding sessions.  
+[**link to slides (react.js)**](https://the-hull.github.io/intro_projects/#1)
+
+* **Staying up-to date: automating tasks from downloading data to reporting** (2019).
+Delivered at the European Geophysical Union General Assembly, this presentation was directed at geo-scientists looking to automate data aquisition, reporting and visualization, relying on `Rmarkdown`, `GitHub` and `TravisCI`.  
+[**link to slides (react.js)**](https://hydrosoc.github.io/rhydro_EGU19/presentations/06_task_automation/06_task_automation.html#1)
 
 ## Workshops
