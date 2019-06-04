@@ -21,7 +21,7 @@ This repository contains (links to) code and/or data products, as well as presen
 This in-devolopment `shiny` app is being built for the institute's staff as an exploration and data download portal, as well as for outreach and educational purposes. 
 It was demonstrated at an outreach and education exchange workshop with members from UK higher education institutions. Ultimately, this app will feature live data, once the necessary infrastructure has been installed on-site.
 
-<a href="/doc/img/shiny_app_bifor.png"><img src="/doc/img/shiny_app_bifor.png" width="600" align="middle"></a>
+<img src="/doc/img/shiny_app_bifor.png" width="600" align="middle" />
 
 
 ## Software
@@ -34,7 +34,7 @@ It allows to search for and cite all packages used in a file, directory or `RStu
 Future improvements will include the ability to supply a bibliography style file, and copying the output to the clipboard.  
 **links**: [GitHub](https://github.com/the-Hull/lib2bib) // [package site](https://the-hull.github.io/lib2bib/index.html)
 
-<a href="/doc/img/lib_interactive.png"><img src="/doc/img/lib_interactive.png" width="600" align="middle"></a>
+<img src="/doc/img/lib_interactive.png" width="600" align="middle" />
 
 ### Contributed:
 
@@ -63,7 +63,19 @@ Delivered at the European Geophysical Union General Assembly, this presentation 
 Delivered at the European Geophysical Union General Assembly, this presentation showcased a suite of open-source software (`R` packages) that can facilitate typical workflows while enhancing reproducibility, including downloading, processing and visualizing results.  
 **links**: [slides (react.js)](https://hydrosoc.github.io/rhydro_EGU19/presentations/03_get_clean_viz/03_get-clean-viz.html#1) // [Rmarkdown (raw)](https://github.com/hydrosoc/rhydro_EGU19/blob/master/presentations/03_get_clean_viz/03_get-clean-viz.Rmd)
 
-<a href="/doc/img/presentation_viz.png"><img src="/doc/img/presentation_viz.png" width="600" align="middle"></a>
+<img src="/doc/img/presentation_viz.png" width="600" align="middle" />
 
 
 ## Workshops
+
+**Using R in Hydrology** <img src="doc/img/rhydro_logo_alt.png" align="right" height = 150px, width = 150px />  
+This short course, delivered at the European Geophysical Union General Assembly, has been run in association with the [Young Hydrologic Society](https://younghs.com/) since 2017. 
+I've contributed in 2018 and took over convener's duties in 2019, organizing speakers, materials (syllabus and archiving); I also developed a consistent theme and logo based on `xaringan` and the common `R` hex-logo.
+
+**2018 Workshop**: [GitHub repository](https://github.com/hydrosoc/rhydro_EGU18) - [![DOI](https://zenodo.org/badge/116503839.svg)](https://zenodo.org/badge/latestdoi/116503839)
+
+**2019 Workshop**: [GitHub repository](https://github.com/hydrosoc/rhydro_EGU19) - [![DOI](https://zenodo.org/badge/169320856.svg)](https://zenodo.org/badge/latestdoi/169320856)
+
+
+
+
