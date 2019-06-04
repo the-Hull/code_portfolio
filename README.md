@@ -15,7 +15,7 @@ This repository contains (links to) code and/or data products, as well as presen
 ### Data processing, statisitical modelling and visualization 
 
 * **Processing, modelling and visualizing hydrological data in R**:  
-This interactive document is an example of a reproducible analyses in `R`, using web APIs to obtain data, reading in non-standard tables with custom functions, reshaping and applying statistical models to infer best predictors of extreme river flows across catchments. The analyses relies heavily on the `tidverse`, especially `purrr` for mapping custom (nested) functions to list-columns.  
+This interactive document is an example of a reproducible analyses in `R`, using web APIs to obtain data, reading in non-standard tables with custom functions, reshaping and applying statistical models to infer best predictors of extreme river flows across catchments in the UK. The analyses relies heavily on the `tidverse`, especially `purrr` for mapping custom (nested) functions to list-columns.  
 **links**: [Document](https://aglhurley.rbind.io/ext_post/01_rhydro_aglhurley_proc-mod-viz) // [Rmarkdown (raw)](https://github.com/the-Hull/rHydro_2018/blob/master/presentation/01_rHydro_AGLHurley_proc-mod-viz.Rmd) - [![DOI](https://zenodo.org/badge/123999066.svg)](https://zenodo.org/badge/latestdoi/123999066)
 
 
@@ -38,6 +38,49 @@ uk_nest %>% head(20)
 
 ```
 <img src="/doc/img/code_example_rhydro.png" width="600" align="middle" />
+
+#### Scheduled/triggered version-control of a repository
+
+This script, as part of a automated, report-generation workflow, uses `git2r` to push results (parameterized reports) from a hosted instance of `R` on `TravisCI` back to a GitHub repository with encrypted authentification tokens.  
+**links:** [Code]() // [GitHub repository](https://github.com/the-Hull/02_task_automation/)
+
+```
+# set up repo and add remote
+repo <- git2r::repository(".")
+repo_url <- "https://github.com/the-Hull/02_task_automation.git"
+git2r::remote_add(repo, name = "taskauto", url = repo_url)
+git2r::config(repo,
+              user.email = "aghu@aghu.com",
+              user.name = "travishull")
+
+# authenticate and get repo
+cred <- git2r::cred_token("GH_TOKEN")
+git2r::checkout(repo, branch = "master")
+
+# set up meta / commits
+last_commit_author <- git2r::commits(repo = repo)[[1]]$author[[1]]
+commit_message <- paste("Update reports: Travis Build")
+
+# check whether report generation was triggered through manual file change
+# this prevents an endless loop, restarting the TravisCI build after pushing
+# reports back to GitHub
+if (last_commit_author != "travishull"){
+
+    git2r::checkout(repo, branch = "master")
+    
+    # git workflow
+    git2r::add(repo, "*")
+    git2r::commit(repo, message = commit_message)
+    git2r::push(repo,
+                name = "taskauto",
+                refspec = "refs/heads/master",
+                credentials = cred)
+
+}
+
+
+```
+
 
 
 
