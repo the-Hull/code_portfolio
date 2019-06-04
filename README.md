@@ -42,7 +42,7 @@ uk_nest %>% head(20)
 #### Scheduled/triggered version-control of a repository
 
 This script, as part of a automated, report-generation workflow, uses `git2r` to push results (parameterized reports) from a hosted instance of `R` on `TravisCI` back to a GitHub repository with encrypted authentification tokens.  
-**links:** [Code]() // [GitHub repository](https://github.com/the-Hull/02_task_automation/)
+**links:** [Code (raw)]() // [GitHub repository (task automation)](https://github.com/the-Hull/02_task_automation/) (see [this presentation for more](https://hydrosoc.github.io/rhydro_EGU19/presentations/06_task_automation/06_task_automation.html#1))
 
 ```
 # set up repo and add remote
