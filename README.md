@@ -19,6 +19,24 @@ This interactive document is an example of a reproducible analyses in `R`, using
 **links**: [Document](https://aglhurley.rbind.io/ext_post/01_rhydro_aglhurley_proc-mod-viz) // [Rmarkdown (raw)](https://github.com/the-Hull/rHydro_2018/blob/master/presentation/01_rHydro_AGLHurley_proc-mod-viz.Rmd) - [![DOI](https://zenodo.org/badge/123999066.svg)](https://zenodo.org/badge/latestdoi/123999066)
 
 
+```
+uk_nest <- models %>% 
+  
+  # use custom function and add id column
+  map_df(apply_model, uk_nested, .id = "id_model") %>% 
+  
+  # carry over pertinent columns
+  select(id_model, country, model) %>% 
+  
+  # add model coefficients and performance metrics to data frame.
+  mutate(coefficients = map(model, tidy),
+         performance = map(model, glance)) %>% 
+  select(-model)
+
+# see results  
+uk_nest %>% head(20)
+
+```
 
 
 ## Shiny Apps
