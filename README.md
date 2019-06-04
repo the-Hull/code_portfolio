@@ -12,6 +12,13 @@ This repository contains (links to) code and/or data products, as well as presen
 
 ## Code examples
 
+### Data processing, statisitical modelling and visualization 
+
+* **Processing, modelling and visualizing hydrological data in R**:  
+This interactive document is an example of a reproducible analyses in `R`, using web APIs to obtain data, reading in non-standard tables with custom functions, reshaping and applying statistical models to infer best predictors of extreme river flows across catchments. The analyses relies heavily on the `tidverse`, especially `purrr` for mapping custom (nested) functions to list-columns.  
+**links**: [Document](https://aglhurley.rbind.io/ext_post/01_rhydro_aglhurley_proc-mod-viz) // [Rmarkdown (raw)](https://github.com/the-Hull/rHydro_2018/blob/master/presentation/01_rHydro_AGLHurley_proc-mod-viz.Rmd) - [![DOI](https://zenodo.org/badge/123999066.svg)](https://zenodo.org/badge/latestdoi/123999066)
+
+
 
 
 ## Shiny Apps
@@ -71,7 +78,6 @@ Delivered at the European Geophysical Union General Assembly, this presentation 
 **Using R in Hydrology** <img src="doc/img/rhydro_logo_alt.png" align="right" height = 150px, width = 150px />  
 This short course, delivered at the European Geophysical Union General Assembly, has been run in association with the [Young Hydrologic Society](https://younghs.com/) since 2017. 
 I've contributed in 2018 and took over convener's duties in 2019, organizing speakers, materials (syllabus and archiving); I also developed a consistent theme and logo based on `xaringan` and the common `R` hex-logo.  
-Topics ranged from obtaining, cleaning and visualizing hydrological data with R; parallel and high performance computing for hydrologists; automating tasks (reporting); using R Shiny with hydrological data; modelling the hydrological cycle; R as a GIS; trend analysis; web APIs; extracting gridded netCDF data.  
 The strong community focus driving this workshop led to a collaborative effort in authoring a discussion paper, titled ["*Using R in hydrology: a review of recent developments and future directions*" (Slater *et al.*, 2019)](https://doi.org/10.5194/hess-2019-50) in *Hydrology and Earth System Sciences*.
 
 
