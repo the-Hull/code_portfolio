@@ -63,7 +63,7 @@ Delivered at the European Geophysical Union General Assembly, this presentation 
 Delivered at the European Geophysical Union General Assembly, this presentation showcased a suite of open-source software (`R` packages) that can facilitate typical workflows while enhancing reproducibility, including downloading, processing and visualizing results.  
 **links**: [slides (react.js)](https://hydrosoc.github.io/rhydro_EGU19/presentations/03_get_clean_viz/03_get-clean-viz.html#1) // [Rmarkdown (raw)](https://github.com/hydrosoc/rhydro_EGU19/blob/master/presentations/03_get_clean_viz/03_get-clean-viz.Rmd)
 
-<a href="/doc/img/shiny_app_bifor.png"><img src="/doc/img/presentation_viz.png" width="600" align="middle"></a>
+<a href="/doc/img/presentation_viz.png"><img src="/doc/img/presentation_viz.png" width="600" align="middle"></a>
 
 
 ## Workshops
