@@ -19,7 +19,7 @@ This interactive document is an example of a reproducible analyses in `R`, using
 **links**: [Document](https://aglhurley.rbind.io/ext_post/01_rhydro_aglhurley_proc-mod-viz) // [Rmarkdown (raw)](https://github.com/the-Hull/rHydro_2018/blob/master/presentation/01_rHydro_AGLHurley_proc-mod-viz.Rmd) - [![DOI](https://zenodo.org/badge/123999066.svg)](https://zenodo.org/badge/latestdoi/123999066)
 
 
-```
+```r
 uk_nest <- models %>% 
   
   # use custom function and add id column
@@ -44,7 +44,7 @@ uk_nest %>% head(20)
 This script, as part of a automated, report-generation workflow, uses `git2r` to push results (parameterized reports) from a hosted instance of `R` on `TravisCI` back to a GitHub repository with encrypted authentification tokens.  
 **links:** [Code (raw)]() // [GitHub repository (task automation)](https://github.com/the-Hull/02_task_automation/) (see [this presentation for more](https://hydrosoc.github.io/rhydro_EGU19/presentations/06_task_automation/06_task_automation.html#1))
 
-```
+```r
 # set up repo and add remote
 repo <- git2r::repository(".")
 repo_url <- "https://github.com/the-Hull/02_task_automation.git"
