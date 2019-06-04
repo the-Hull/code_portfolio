@@ -21,7 +21,7 @@ This repository contains (links to) code and/or data products, as well as presen
 This in-devolopment `shiny` app is being built for the institute's staff as an exploration and data download portal, as well as for outreach and educational purposes. 
 It was demonstrated at an outreach and education exchange workshop with members from UK higher education institutions. Ultimately, this app will feature live data, once the necessary infrastructure has been installed on-site.
 
-<a href="/doc/img/shiny_app_bifor.png"><img src="/doc/img/shiny_app_bifor.png" width="600"></a>
+<a href="/doc/img/shiny_app_bifor.png"><img src="/doc/img/shiny_app_bifor.png" width="600" align="middle"></a>
 
 
 ## Software
@@ -34,7 +34,7 @@ It allows to search for and cite all packages used in a file, directory or `RStu
 Future improvements will include the ability to supply a bibliography style file, and copying the output to the clipboard.  
 **links**: [GitHub](https://github.com/the-Hull/lib2bib) // [package site](https://the-hull.github.io/lib2bib/index.html)
 
-<a href="/doc/img/lib_interactive.png"><img src="/doc/img/lib_interactive.png" width="600"></a>
+<a href="/doc/img/lib_interactive.png"><img src="/doc/img/lib_interactive.png" width="600" align="middle"></a>
 
 ### Contributed:
 
@@ -55,12 +55,15 @@ This presentation was delivered to the physical geography department during a de
 This presentation was delivered to the water science research group during a dedicated seminar at University of Birmingham and included best practices in version controlling, project set-up, reproducible workflows and live coding sessions.  
 **links:** [slides (react.js)](https://the-hull.github.io/intro_projects/#1) // [Rmarkdown (raw)](https://github.com/the-Hull/intro_projects/blob/master/04_presentation/intro_project_management.Rmd)
 
-* **Staying up-to date: automating tasks from downloading data to reporting** (2019).
+* **Staying up-to date: automating tasks from downloading data to reporting** (2019).  
 Delivered at the European Geophysical Union General Assembly, this presentation was directed at geo-scientists looking to automate data aquisition, reporting and visualization, relying on `Rmarkdown`, `GitHub` and `TravisCI`.  
 **links:** [slides (react.js)](https://hydrosoc.github.io/rhydro_EGU19/presentations/06_task_automation/06_task_automation.html#1) // [Rmarkdown (raw)](https://github.com/hydrosoc/rhydro_EGU19/blob/master/presentations/06_task_automation/06_task_automation.Rmd)
 
 * **Obtaining, cleaning and visualizing hydrological data with R** (2019).  
 Delivered at the European Geophysical Union General Assembly, this presentation showcased a suite of open-source software (`R` packages) that can facilitate typical workflows while enhancing reproducibility, including downloading, processing and visualizing results.  
 **links**: [slides (react.js)](https://hydrosoc.github.io/rhydro_EGU19/presentations/03_get_clean_viz/03_get-clean-viz.html#1) // [Rmarkdown (raw)](https://github.com/hydrosoc/rhydro_EGU19/blob/master/presentations/03_get_clean_viz/03_get-clean-viz.Rmd)
+
+<a href="/doc/img/shiny_app_bifor.png"><img src="/doc/img/presentation_viz.png" width="600" align="middle"></a>
+
 
 ## Workshops
