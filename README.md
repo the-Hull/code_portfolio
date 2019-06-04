@@ -37,6 +37,9 @@ uk_nest <- models %>%
 uk_nest %>% head(20)
 
 ```
+<img src="/doc/img/code_example_rhydro.png" width="600" align="middle" />
+
+
 
 
 ## Shiny Apps
