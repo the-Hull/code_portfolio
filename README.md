@@ -39,9 +39,44 @@ uk_nest %>% head(20)
 ```
 <img src="/doc/img/code_example_rhydro.png" width="600" align="middle" />
 
+## Reproducible analyses applying `R` package development principles as *research compendium*
+
+* **World Bank Population Data analyses**  
+The brief analyses featured in an elaborate [blog post](https://the-hull.github.io/reproducibility_compendium/analyses/00_write-up.html) for my personal website on reproducibility approaches. In this case, the structure and methods for `R` package development were applied to allow attaching custom functions and data with documentation to anybody looking to explore or reproduce the analyses (or entire blog post). It heavily relies on `usethis`, the `tidyverse` as well as `rlang` non-standard evaluation to facilitate use with piping and `dplyr`. The source for the function `wb_change_percent` used below, including documentation, can be found [here](https://github.com/the-Hull/reproducibility_compendium/blob/master/R/wb_calc_change_percent.R).
+
+```r
+#load custom library containing research compendium
+library(WBanalyses) 
+library(dplyr)
+library(ggplot2)
+
+# calculate pop change for last 10 years in data set.
+max_year <- max(pop_data$year)
+start_year <- max_year - 10
+
+
+# ?wb_change_percent for the documentation
+
+# add "region" in ... before country_name to keep column in analyses
+pop_change <- pop_data %>%
+    WBanalyses::wb_change_percent(start_year = start_year,
+                                  end_year = max_year,
+                                  value_col = population,
+                                  year_col = year,
+                                  outname = "population_perc_change",
+                                  region,
+                                  country_name)
+
+
+```
+<img src="/doc/img/code_example_reproducible.png" width="600" align="middle" />
+
+
+
+
 #### Scheduled/triggered version-control and management of a repository
 
-This script, as part of a automated, report-generation workflow, uses `git2r` to push results (parameterized reports) from a hosted instance of `R` on `TravisCI` back to a GitHub repository with encrypted authentification tokens.  
+This code snippet, as part of a automated, report-generation workflow, uses `git2r` to push results (parameterized reports) from a hosted instance of `R` on `TravisCI` back to a GitHub repository with encrypted authentification tokens.  
 **links:** [Code (raw)]() // [GitHub repository (task automation)](https://github.com/the-Hull/02_task_automation/) (see [this presentation for more](https://hydrosoc.github.io/rhydro_EGU19/presentations/06_task_automation/06_task_automation.html#1))
 
 ```r
