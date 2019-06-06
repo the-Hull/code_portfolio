@@ -15,7 +15,7 @@ This repository contains (links to) code and/or data products, as well as presen
 ### Data processing, statisitical modelling and visualization 
 
 * **Processing, modelling and visualizing hydrological data in R**:  
-This interactive document is an example of a reproducible analyses in `R`, using web APIs to obtain data, reading in non-standard tables with custom functions, reshaping and applying statistical models to infer best predictors of extreme river flows across catchments in the UK. The analyses relies heavily on the `tidverse`, especially `purrr` for mapping custom (nested) functions to list-columns.  
+This interactive document is an example of a reproducible analyses in `R`, using web APIs to obtain data, reading in non-standard tables with custom functions, reshaping and applying statistical models to infer best predictors of extreme river flows across catchments in the UK. The analyses relies heavily on the `tidyverse`, especially `purrr` for mapping custom (nested) functions to list-columns.  
 **links**: [Document](https://aglhurley.rbind.io/ext_post/01_rhydro_aglhurley_proc-mod-viz) // [Rmarkdown (raw)](https://github.com/the-Hull/rHydro_2018/blob/master/presentation/01_rHydro_AGLHurley_proc-mod-viz.Rmd) - [![DOI](https://zenodo.org/badge/123999066.svg)](https://zenodo.org/badge/latestdoi/123999066)
 
 
