@@ -39,7 +39,7 @@ uk_nest %>% head(20)
 ```
 <img src="/doc/img/code_example_rhydro.png" width="600" align="middle" />
 
-## Reproducible analyses applying `R` package development principles as *research compendium*
+### Reproducible analyses applying `R` package development principles as *research compendium*
 
 * **World Bank Population Data analyses**  
 The brief analyses featured in an elaborate [blog post](https://the-hull.github.io/reproducibility_compendium/analyses/00_write-up.html) for my personal website on reproducibility approaches. In this case, the structure and methods for `R` package development were applied to allow attaching custom functions and data with documentation to anybody looking to explore or reproduce the analyses (or entire blog post). It heavily relies on `usethis`, the `tidyverse` as well as `rlang` non-standard evaluation to facilitate use with piping and `dplyr`. The source for the function `wb_change_percent` used below, including documentation, can be found [here](https://github.com/the-Hull/reproducibility_compendium/blob/master/R/wb_calc_change_percent.R).
