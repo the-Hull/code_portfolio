@@ -1,11 +1,10 @@
+# Portfolio
+
 [Code Examples](#code-examples) 
 / [Shiny Apps](#shiny-apps) 
 / [Software](#software) 
 / [Presentations](#presentations) 
 / [Workshops](#workshops)
-
-
-# Portfolio
 
 
 This repository contains (links to) code and/or data products, as well as presentations I've developed and created in recent years.
