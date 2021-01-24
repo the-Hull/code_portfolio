@@ -226,26 +226,26 @@ This workshop was delivered at the Ecological Society of America's Annual Meetin
 
 <p style="text-align:center;">
 
-<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/00_URSA_P19.png" width = 300px height = 200px target="_blank">
-<img src="/doc/img/gallery/00_URSA_P19.png"> </a>
+<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/00_URSA_P19.png" target="_blank">
+<img src="/doc/img/gallery/00_URSA_P19.png" width = 300px height = 200px > </a>
 
 <a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/01_berlin_transport_overview.png" width = 300px height = 300px target="_blank">
-<img src="doc/img/gallery/01_berlin_transport_overview.png"> </a> 
+<img src="doc/img/gallery/01_berlin_transport_overview.png" width = 300px height = 200px > </a> 
 
 <a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/09_map_patch_ndvi_scaling.png" width = 300px height = 200px target="_blank">
-<img src="doc/img/gallery/09_map_patch_ndvi_scaling.png"> </a>
+<img src="doc/img/gallery/09_map_patch_ndvi_scaling.png" width = 300px height = 200px > </a>
 <br/>
 
 
 <a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/RWI_x_y__ASP_WSPR_HSB_HSM.png" width = 200px height = 500 px target="_blank">
-<img src="/doc/img/gallery/RWI_x_y__ASP_WSPR_HSB_HSM.png"> </a>
+<img src="/doc/img/gallery/RWI_x_y__ASP_WSPR_HSB_HSM.png" width = 300px height = 200px > </a>
 
 <a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/07_et_pred_performance.png" width = 300px height = 300px target="_blank">
-<img src="/doc/img/gallery/07_et_pred_performance.png"> </a>
+<img src="/doc/img/gallery/07_et_pred_performance.png" width = 300px height = 200px > </a>
 </p>
 
 <a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/07_hysteresis_precip_res.png" width = 300px height = 300px target="_blank">
-<img src="/doc/img/gallery/07_hysteresis_precip_res.png"> </a>
+<img src="/doc/img/gallery/07_hysteresis_precip_res.png" width = 300px height = 200px > </a>
 </p>
 
 
