@@ -206,16 +206,19 @@ The strong community focus driving this workshop led to a collaborative effort i
 
 **2019 Workshop**: [GitHub repository](https://github.com/hydrosoc/rhydro_EGU19) - [![DOI](https://zenodo.org/badge/169320856.svg)](https://zenodo.org/badge/latestdoi/169320856)
 
+---
 
 **Advanced Analyses of Tree Physiological Time Series in R and PhytoSim; ESA Annual Meeting, Virtual (2020)** 
 
 
 <img src="https://github.com/deep-org/workshop_data/blob/master/esa-workshop2020/Sap%20flow%20gif-min.gif" height = 300px, width = 400px /> 
 <br>
-This workshop was delivered at the Ecological Society of America's Annual Meeting in a virtual format as a collaborative and inter-disciplanry effort.
+This workshop was delivered at the Ecological Society of America's Annual Meeting in a virtual format as a collaborative and inter-disciplanry effort.  
 
 
 **2020 Workshop**: [Materials](https://deep-tools.netlify.app/docs-workshops/esa-workshop2020/) //  [GitHub repository](https://github.com/deep-org/workshop_data/tree/master/esa-workshop2020)
+
+
 
 ## Visualizations
 
@@ -223,25 +226,25 @@ This workshop was delivered at the Ecological Society of America's Annual Meetin
 
 <p style="text-align:center;">
 
-<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/00_URSA_P19.png" width = 400px target="_blank">
+<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/00_URSA_P19.png" width = 300px target="_blank">
 <img src="/doc/img/gallery/00_URSA_P19.png"> </a>
 
-<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/01_berlin_transport_overview.png" width = 500px target="_blank">
+<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/01_berlin_transport_overview.png" width = 300px target="_blank">
 <img src="doc/img/gallery/01_berlin_transport_overview.png"> </a> 
 
-<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/09_map_patch_ndvi_scaling.png" width = 500px target="_blank">
+<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/09_map_patch_ndvi_scaling.png" width = 300px target="_blank">
 <img src="doc/img/gallery/09_map_patch_ndvi_scaling.png"> </a>
 <br/>
 
 
-<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/RWI_x_y__ASP_WSPR_HSB_HSM.png" width = 500px target="_blank">
+<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/RWI_x_y__ASP_WSPR_HSB_HSM.png" width = 200px target="_blank">
 <img src="/doc/img/gallery/RWI_x_y__ASP_WSPR_HSB_HSM.png"> </a>
 
-<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/07_et_pred_performance.png" width = 500px target="_blank">
+<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/07_et_pred_performance.png" width = 300px target="_blank">
 <img src="/doc/img/gallery/07_et_pred_performance.png"> </a>
 </p>
 
-<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/07_hysteresis_precip_res.png" width = 500px target="_blank">
+<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/07_hysteresis_precip_res.png" width = 300px target="_blank">
 <img src="/doc/img/gallery/07_hysteresis_precip_res.png"> </a>
 </p>
 
