@@ -226,25 +226,25 @@ This workshop was delivered at the Ecological Society of America's Annual Meetin
 
 <p style="text-align:center;">
 
-<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/00_URSA_P19.png" width = 300px target="_blank">
+<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/00_URSA_P19.png" width = 300px height = 200px target="_blank">
 <img src="/doc/img/gallery/00_URSA_P19.png"> </a>
 
-<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/01_berlin_transport_overview.png" width = 300px target="_blank">
+<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/01_berlin_transport_overview.png" width = 300px height = 300px target="_blank">
 <img src="doc/img/gallery/01_berlin_transport_overview.png"> </a> 
 
-<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/09_map_patch_ndvi_scaling.png" width = 300px target="_blank">
+<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/09_map_patch_ndvi_scaling.png" width = 300px height = 200px target="_blank">
 <img src="doc/img/gallery/09_map_patch_ndvi_scaling.png"> </a>
 <br/>
 
 
-<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/RWI_x_y__ASP_WSPR_HSB_HSM.png" width = 200px target="_blank">
+<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/RWI_x_y__ASP_WSPR_HSB_HSM.png" width = 200px height = 500 px target="_blank">
 <img src="/doc/img/gallery/RWI_x_y__ASP_WSPR_HSB_HSM.png"> </a>
 
-<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/07_et_pred_performance.png" width = 300px target="_blank">
+<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/07_et_pred_performance.png" width = 300px height = 300px target="_blank">
 <img src="/doc/img/gallery/07_et_pred_performance.png"> </a>
 </p>
 
-<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/07_hysteresis_precip_res.png" width = 300px target="_blank">
+<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/07_hysteresis_precip_res.png" width = 300px height = 300px target="_blank">
 <img src="/doc/img/gallery/07_hysteresis_precip_res.png"> </a>
 </p>
 
