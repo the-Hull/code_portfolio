@@ -208,11 +208,11 @@ The strong community focus driving this workshop led to a collaborative effort i
 
 
 **Advanced Analyses of Tree Physiological Time Series in R and PhytoSim; ESA Annual Meeting, Virtual (2020)** 
-<img src="https://github.com/deep-org/workshop_data/blob/master/esa-workshop2020/Sap%20flow%20gif-min.gif"height = 400px, width = 500px /> <br/>
+<img src="https://github.com/deep-org/workshop_data/blob/master/esa-workshop2020/Sap%20flow%20gif-min.gif" height = 400px, width = 500px /> 
 This workshop was delivered at the Ecological Society of America's Annual Meeting in a virtual format as a collaborative and inter-disciplanry effort.
 
 
-**2020 Workshop**: [Materials](https://deep-tools.netlify.app/docs-workshops/esa-workshop2020/)  [GitHub repository](https://github.com/deep-org/workshop_data/tree/master/esa-workshop2020)
+**2020 Workshop**: [Materials](https://deep-tools.netlify.app/docs-workshops/esa-workshop2020/) //  [GitHub repository](https://github.com/deep-org/workshop_data/tree/master/esa-workshop2020)
 
 ## Visualizations
 
@@ -221,7 +221,7 @@ This workshop was delivered at the Ecological Society of America's Annual Meetin
 <p style="text-align:center;">
 
 <a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/00_URSA_P19.png" target="_blank">
-<img src=/doc/img/gallery/00_URSA_P19.png"> </a>
+<img src="/doc/img/gallery/00_URSA_P19.png"> </a>
 
 <a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/01_berlin_transport_overview.png" target="_blank">
 <img src="/doc/img/code_example_rhydro.png/doc/img/gallery/01_berlin_transport_overview.png"> </a> 
@@ -232,13 +232,14 @@ This workshop was delivered at the Ecological Society of America's Annual Meetin
 
 
 <a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/RWI_x_y__ASP_WSPR_HSB_HSM.png" target="_blank">
-<img src=/doc/img/gallery/RWI_x_y__ASP_WSPR_HSB_HSM.png"> </a>
+<img src="/doc/img/gallery/RWI_x_y__ASP_WSPR_HSB_HSM.png"> </a>
 
 <a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/07_et_pred_performance.png" target="_blank">
-<img src=/doc/img/gallery/07_et_pred_performance.png"> </a>
+<img src="/doc/img/gallery/07_et_pred_performance.png"> </a>
 </p>
 
 <a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/07_hysteresis_precip_res.png" target="_blank">
-<img src=/doc/img/gallery/07_hysteresis_precip_res.png"> </a>
+<img src="/doc/img/gallery/07_hysteresis_precip_res.png"> </a>
 </p>
+
 
