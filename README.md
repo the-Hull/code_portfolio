@@ -207,13 +207,12 @@ The strong community focus driving this workshop led to a collaborative effort i
 **2019 Workshop**: [GitHub repository](https://github.com/hydrosoc/rhydro_EGU19) - [![DOI](https://zenodo.org/badge/169320856.svg)](https://zenodo.org/badge/latestdoi/169320856)
 
 
-**Advanced Analyses of Tree Physiological Time Series in R and PhytoSim; ESA Annual Meeting, Virtual (2020)** <img src="https://github.com/deep-org/workshop_data/blob/master/esa-workshop2020/Sap%20flow%20gif-min.gif" align="right" height = 400px, width = 500px />  
+**Advanced Analyses of Tree Physiological Time Series in R and PhytoSim; ESA Annual Meeting, Virtual (2020)** 
+<img src="https://github.com/deep-org/workshop_data/blob/master/esa-workshop2020/Sap%20flow%20gif-min.gif"height = 400px, width = 500px /> <br/>
 This workshop was delivered at the Ecological Society of America's Annual Meeting in a virtual format as a collaborative and inter-disciplanry effort.
 
 
 **2020 Workshop**: [Materials](https://deep-tools.netlify.app/docs-workshops/esa-workshop2020/)  [GitHub repository](https://github.com/deep-org/workshop_data/tree/master/esa-workshop2020)
-
-**2019 Workshop**: [GitHub repository](https://github.com/hydrosoc/rhydro_EGU19) - [![DOI](https://zenodo.org/badge/169320856.svg)](https://zenodo.org/badge/latestdoi/169320856)
 
 ## Visualizations
 
