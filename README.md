@@ -3,6 +3,7 @@
 / [Software](#software) 
 / [Presentations](#presentations) 
 / [Workshops](#workshops)
+/ [Visualizations](#visualizations)
 
 
 # Portfolio
@@ -137,6 +138,14 @@ It was demonstrated at an outreach and education exchange workshop with members 
 
 ### Authored:
 
+
+* **datacleanr**:  
+`R` package for Interactive and Reproducible Data Cleaning. 
+datacleanr is developed using the shiny package, and relies on informative summaries, visual cues and interactive data selection and annotation. All data-altering operations are documented, and converted to valid R code (reproducible recipe), that can be copied, sent to an active RStudio script, or saved to disk.
+**links**: [GitHub](https://github.com/the-Hull/datacleanr) // [package site](https://the-hull.github.io/datacleanr/index.html)
+
+<img src="/doc/img/datacleanr_readme_cosore.gif" width="600" align="middle" />
+
 * **lib2bib**:  
 `R` package to acknowledge other `R` packages. 
 It allows to search for and cite all packages used in a file, directory or `RStudio` project via calls to `library()`, `require()` or using the `::` operator notation. It includes a shiny interface to select specific packages and save them to a text or `.bib` file. 
@@ -145,10 +154,21 @@ Future improvements will include the ability to supply a bibliography style file
 
 <img src="/doc/img/lib_interactive.png" width="600" align="middle" />
 
+
+* **ROAR**:  
+`R` package for Reproducible and Organized Assimilation Routines (*in development*). 
+`ROAR` assists in assimilating heterogeneous data sources into a pre-defined format, using templated scripts. These scripts are pre-populated through a "meta table" that contains information on every data set (origin, time zone, units, table format, etc.).
+**links**: [GitHub](https://github.com/the-Hull/ROAR) 
+
 ### Contributed:
 
+* **TREX**:  
+Assimilate, process and analyse thermal dissipation sap flow data `R`. 
+`TREX` allows to assimilate, process and analyse sap flow data obtained with the thermal dissipation method (TDM). The package includes functions for gap filling time-series data, detecting outliers, calculating data-processing uncertainties and generating uniform data output and visualisation. The package is designed to deal with large quantities of data and apply commonly used data-processing methods.
+**links**: [GitHub](https://github.com/the-Hull/TREX) //  [CRAN](https://cran.r-project.org/web/packages/TREX/index.html) // [accompanying publication (*Methods in Ecology and Evolution*)](https://doi.org/10.1111/2041-210X.13524)
+
 * **RAPTOR**:  
-Row and Position Tracheid Organizer in R.
+Row and Position Tracheid Organizer in `R`.
 `R` package for wood anatomical analyses, allowing to pre-process, filter and extract cell properties from wood thinsections, significantly simplifying the process of extracting information for further processing.
 My role in this package was to refactor and re-structure code to ensure compliance with CRAN requirements and best-practices.  
 **links**: [GitHub](https://github.com/the-Hull/raptor) //  [CRAN](https://cran.r-project.org/web/packages/RAPTOR/index.html) // [accompanying publication (*Dendrochronologia*)](https://www.sciencedirect.com/science/article/pii/S1125786517301236)
@@ -188,5 +208,39 @@ The strong community focus driving this workshop led to a collaborative effort i
 **2019 Workshop**: [GitHub repository](https://github.com/hydrosoc/rhydro_EGU19) - [![DOI](https://zenodo.org/badge/169320856.svg)](https://zenodo.org/badge/latestdoi/169320856)
 
 
+**Advanced Analyses of Tree Physiological Time Series in R and PhytoSim; ESA Annual Meeting, Virtual (2020)** <img src="https://github.com/deep-org/workshop_data/blob/master/esa-workshop2020/Sap%20flow%20gif-min.gif" align="right" height = 400px, width = 500px />  
+This workshop was delivered at the Ecological Society of America's Annual Meeting in a virtual format as a collaborative and inter-disciplanry effort.
 
+
+**2020 Workshop**: [Materials](https://deep-tools.netlify.app/docs-workshops/esa-workshop2020/)  [GitHub repository](https://github.com/deep-org/workshop_data/tree/master/esa-workshop2020)
+
+**2019 Workshop**: [GitHub repository](https://github.com/hydrosoc/rhydro_EGU19) - [![DOI](https://zenodo.org/badge/169320856.svg)](https://zenodo.org/badge/latestdoi/169320856)
+
+## Visualizations
+
+### Spatial / Scientific
+
+<p style="text-align:center;">
+
+<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/00_URSA_P19.png" target="_blank">
+<img src=/doc/img/gallery/00_URSA_P19.png"> </a>
+
+<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/01_berlin_transport_overview.png" target="_blank">
+<img src="/doc/img/code_example_rhydro.png/doc/img/gallery/01_berlin_transport_overview.png"> </a> 
+
+<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/09_map_patch_ndvi_scaling.png" target="_blank">
+<img src="/doc/img/code_example_rhydro.png/doc/img/gallery/09_map_patch_ndvi_scaling.png"> </a>
+<br/>
+
+
+<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/RWI_x_y__ASP_WSPR_HSB_HSM.png" target="_blank">
+<img src=/doc/img/gallery/RWI_x_y__ASP_WSPR_HSB_HSM.png"> </a>
+
+<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/07_et_pred_performance.png" target="_blank">
+<img src=/doc/img/gallery/07_et_pred_performance.png"> </a>
+</p>
+
+<a href="https://raw.githubusercontent.com/the-Hull/code_portfolio/master/doc/img/gallery/07_hysteresis_precip_res.png" target="_blank">
+<img src=/doc/img/gallery/07_hysteresis_precip_res.png"> </a>
+</p>
 
