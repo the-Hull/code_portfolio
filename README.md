@@ -183,6 +183,10 @@ This presentation was delivered to the physical geography department during a de
 This presentation was delivered to the water science research group during a dedicated seminar at University of Birmingham and included best practices in version controlling, project set-up, reproducible workflows and live coding sessions.  
 **links:** [slides (react.js)](https://the-hull.github.io/intro_projects/#1) // [Rmarkdown (raw)](https://github.com/the-Hull/intro_projects/blob/master/04_presentation/intro_project_management.Rmd)
 
+* **Processing, modelling and vizualising hydrological data in R** (2018).  
+Delivered at the European Geophysical Union General Assembly, this presentation was directed at hydrologists interested in streamlining national-scale analyses with tiydverse methods.  
+**links:** [document (html)](https://aglhurley.rbind.io/ext_post/01_rhydro_aglhurley_proc-mod-viz) // [Rmarkdown (raw)](https://github.com/the-Hull/rHydro_2018/blob/master/presentation/01_rHydro_AGLHurley_proc-mod-viz.Rmd) // [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2553998.svg)](https://doi.org/10.5281/zenodo.2553998)
+
 * **Staying up-to date: automating tasks from downloading data to reporting** (2019).  
 Delivered at the European Geophysical Union General Assembly, this presentation was directed at geo-scientists looking to automate data aquisition, reporting and visualization, relying on `Rmarkdown`, `GitHub` and `TravisCI`.  
 **links:** [slides (react.js)](https://hydrosoc.github.io/rhydro_EGU19/presentations/06_task_automation/06_task_automation.html#1) // [Rmarkdown (raw)](https://github.com/hydrosoc/rhydro_EGU19/blob/master/presentations/06_task_automation/06_task_automation.Rmd)
