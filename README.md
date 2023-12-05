@@ -102,7 +102,7 @@ It was demonstrated at an outreach and education exchange workshop with members 
 ## Flask Apps
 
 * **NexTrip ✈** Travel Destination Recommender:   
-**link**: [http://aglhurley.pythonanywhere.com/]([https://aglhurley.shinyapps.io/bifor/](http://aglhurley.pythonanywhere.com/))  
+**link**: [http://aglhurley.pythonanywhere.com/](http://aglhurley.pythonanywhere.com/)
 Mock-project showcasing devlopment of back-end, front-end and machine learning approaches in `python` using `flask`, `scikit-learn` and data visualization through `plotly` and `matplotlib`.
 
 
