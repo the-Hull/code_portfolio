@@ -180,12 +180,6 @@ Delivered at the European Geophysical Union General Assembly, this presentation 
 
 ## Workshops
 
-**Workshops on tree physiology and time series analyses**
-Within the context of the Dendro-ecology and Eco-physiology (DEEP)-Toolbox, I participated the devlopment and the delivery of several workshops starting in 2021. See the [DEEP-Website](https://deep-tools.netlify.app/) for additional information.
-
-<img src="https://d33wubrfki0l68.cloudfront.net/00889003a9c308968743de9471c6e2ac16ef266a/077e5/talk/nadef-2022-cpappas-rpeters-ahurley/featured_hu0d18b8b4e7255a4d80a6c16d37b758fa_78264_720x0_resize_q90_lanczos.jpg" width="600" align="middle" />
-
-
 **Using R in Hydrology** <img src="doc/img/rhydro_logo_alt.png" align="right" height = 150px, width = 150px />  
 This short course, delivered at the European Geophysical Union General Assembly, has been run in association with the [Young Hydrologic Society](https://younghs.com/) since 2017. 
 I've contributed in 2018 and took over convener's duties in 2019, organizing speakers, materials (syllabus and archiving); I also developed a consistent theme and logo based on `xaringan` and the common `R` hex-logo.  
@@ -198,17 +192,12 @@ The strong community focus driving this workshop led to a collaborative effort i
 
 ---
 
-**Advanced Analyses of Tree Physiological Time Series in R and PhytoSim; ESA Annual Meeting, Virtual (2020)** 
+**Workshops on tree physiology and time series analyses**
+Within the context of the Dendro-ecology and Eco-physiology (DEEP)-Toolbox, I participated the devlopment and the delivery of several workshops starting in 2021. See the [DEEP-Website](https://deep-tools.netlify.app/) for additional information.
 
-
-<img src="https://github.com/deep-org/workshop_data/blob/master/esa-workshop2020/Sap%20flow%20gif-min.gif" height = 300px, width = 400px /> 
-<br>
-This workshop was delivered at the Ecological Society of America's Annual Meeting in a virtual format as a collaborative and inter-disciplanry effort.  
-
+<img src="https://d33wubrfki0l68.cloudfront.net/00889003a9c308968743de9471c6e2ac16ef266a/077e5/talk/nadef-2022-cpappas-rpeters-ahurley/featured_hu0d18b8b4e7255a4d80a6c16d37b758fa_78264_720x0_resize_q90_lanczos.jpg" width="600" align="middle" />
 
 **2020 Workshop**: [Materials](https://deep-tools.netlify.app/docs-workshops/esa-workshop2020/) //  [GitHub repository](https://github.com/deep-org/workshop_data/tree/master/esa-workshop2020)
-
-
 
 ## Visualizations
 
