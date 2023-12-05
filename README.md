@@ -71,13 +71,18 @@ pop_change <- pop_data %>%
 ```
 <img src="/doc/img/code_example_reproducible.png" width="600" align="middle" />
 
+#### Continuous Integration for data curation
+The "weekly oil bulletin"-database is generated through a CI-runner that executes code every week to generate download links from scraped meta data. A database is updated and relevant logs written to file for easy curation and error handling.
+**links:** [GitHub repository (weekly_oil_bulletin)](https://github.com/the-Hull/weekly_oil_bulletin) 
 
 
+<img src="https://github.com/the-hull/weekly_oil_bulletin/raw/main/fig/wob_germany.png?raw=true" width="600" align="middle" />
 
-#### Scheduled/triggered version-control and management of a repository
+
+#### Continuous Integration for report generation
 
 This code snippet, as part of a automated, report-generation workflow, uses `git2r` to push results (parameterized reports) from a hosted instance of `R` on `TravisCI` back to a GitHub repository with encrypted authentification tokens.  
-**links:** [Code (raw)]() // [GitHub repository (task automation)](https://github.com/the-Hull/02_task_automation/) (see [this presentation for more](https://hydrosoc.github.io/rhydro_EGU19/presentations/06_task_automation/06_task_automation.html#1))
+**links:** [GitHub repository (task automation)](https://github.com/the-Hull/02_task_automation/) (see [this presentation for more](https://hydrosoc.github.io/rhydro_EGU19/presentations/06_task_automation/06_task_automation.html#1))
 
 ```r
 # set up repo and add remote
@@ -133,9 +138,23 @@ It was demonstrated at an outreach and education exchange workshop with members 
 <img src="/doc/img/shiny_app_bifor.png" width="600" align="middle" />
 
 
+## Flask Apps
+
+* **NexTrip ✈** Travel Destination Recommender:   
+**link**: [http://aglhurley.pythonanywhere.com/]([https://aglhurley.shinyapps.io/bifor/](http://aglhurley.pythonanywhere.com/))  
+Mock-project showcasing devlopment of back-end, front-end and machine learning approaches in `python` using `flask`, `scikit-learn` and data visualization through `plotly` and `matplotlib`.
+
+
 ## Software
 
 ### Authored:
+
+* **remis**:  
+`R` package for Interacting with the UNFCCC Data Interface API. 
+The package allows querying and searching meta-data to post requests for all greenhouse-gas emissions data reported to ANNEX-I and Non-Annex-I countries under the UNFCCC protocol.
+**links**: [GitHub](https://github.com/the-Hull/remis) // [package site](https://the-hull.github.io/remis/index.html)
+
+<img src="https://the-hull.github.io/remis/articles/api-use_files/figure-html/fig-transportation-1.png" width="600" align="middle" />
 
 
 * **datacleanr**:  
