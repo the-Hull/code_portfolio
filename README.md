@@ -112,7 +112,7 @@ Mock-project showcasing devlopment of back-end, front-end and machine learning a
 
 * **remis**:  
 `R` package for Interacting with the UNFCCC Data Interface API. 
-The package allows querying and searching meta-data to post requests for all greenhouse-gas emissions data reported to ANNEX-I and Non-Annex-I countries under the UNFCCC protocol.
+The package allows querying and searching meta-data to post requests for all greenhouse-gas emissions data reported by ANNEX-I and Non-Annex-I countries to the UNFCCC.  
 **links**: [GitHub](https://github.com/the-Hull/remis) // [package site](https://the-hull.github.io/remis/index.html)
 
 <img src="https://the-hull.github.io/remis/articles/api-use_files/figure-html/fig-transportation-1.png" width="600" align="middle" />
