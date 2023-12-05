@@ -1,7 +1,9 @@
 # Portfolio
 
-[Code Examples](#code-examples) 
+[Continuous Integration](#continuous-integration)
+/ [Code Examples](#code-examples)
 / [Shiny Apps](#shiny-apps) 
+/ [Flask Apps](#flask-apps) 
 / [Software](#software) 
 / [Presentations](#presentations) 
 / [Workshops](#workshops)
@@ -10,7 +12,22 @@
 
 This repository contains (links to) code and/or data products, as well as presentations I've developed and created in recent years.
 
-## Code examples
+## Continuous Integration
+
+### Continuous Integration for data curation
+The "weekly oil bulletin"-database is generated through a CI-runner that executes code every week to generate download links from scraped meta data. A database is updated and relevant logs written to file for easy curation and error handling.
+**links:** [GitHub repository (weekly_oil_bulletin)](https://github.com/the-Hull/weekly_oil_bulletin) 
+
+
+<img src="https://github.com/the-hull/weekly_oil_bulletin/raw/main/fig/wob_germany.png?raw=true" width="600" align="middle" />
+
+
+### Continuous Integration for report generation
+
+This code snippet, as part of a automated, report-generation workflow, uses `git2r` to push results (parameterized reports) from a hosted instance of `R` on `TravisCI` back to a GitHub repository with encrypted authentification tokens.  
+**links:** [GitHub repository (task automation)](https://github.com/the-Hull/02_task_automation/) (see [this presentation for more](https://hydrosoc.github.io/rhydro_EGU19/presentations/06_task_automation/06_task_automation.html#1))
+
+## Code Examples
 
 ### Data processing, statisitical modelling and visualization 
 
@@ -70,62 +87,6 @@ pop_change <- pop_data %>%
 
 ```
 <img src="/doc/img/code_example_reproducible.png" width="600" align="middle" />
-
-#### Continuous Integration for data curation
-The "weekly oil bulletin"-database is generated through a CI-runner that executes code every week to generate download links from scraped meta data. A database is updated and relevant logs written to file for easy curation and error handling.
-**links:** [GitHub repository (weekly_oil_bulletin)](https://github.com/the-Hull/weekly_oil_bulletin) 
-
-
-<img src="https://github.com/the-hull/weekly_oil_bulletin/raw/main/fig/wob_germany.png?raw=true" width="600" align="middle" />
-
-
-#### Continuous Integration for report generation
-
-This code snippet, as part of a automated, report-generation workflow, uses `git2r` to push results (parameterized reports) from a hosted instance of `R` on `TravisCI` back to a GitHub repository with encrypted authentification tokens.  
-**links:** [GitHub repository (task automation)](https://github.com/the-Hull/02_task_automation/) (see [this presentation for more](https://hydrosoc.github.io/rhydro_EGU19/presentations/06_task_automation/06_task_automation.html#1))
-
-```r
-# set up repo and add remote
-repo <- git2r::repository(".")
-repo_url <- "https://github.com/the-Hull/02_task_automation.git"
-git2r::remote_add(repo, name = "taskauto", url = repo_url)
-
-# set user info for the hosted instance
-# user name is used to check for manual vs. triggered actions
-git2r::config(repo,
-              user.email = "aghu@aghu.com",
-              user.name = "travishull")
-
-# authenticate and get repo
-cred <- git2r::cred_token("GH_TOKEN")
-git2r::checkout(repo, branch = "master")
-
-# set up meta / commits
-last_commit_author <- git2r::commits(repo = repo)[[1]]$author[[1]]
-commit_message <- paste("Update reports: Travis Build")
-
-# check whether report generation was triggered through manual file change
-# this prevents an endless loop, restarting the TravisCI build after pushing
-# reports back to GitHub
-if (last_commit_author != "travishull"){
-
-    git2r::checkout(repo, branch = "master")
-    
-    # git workflow
-    git2r::add(repo, "*")
-    git2r::commit(repo, message = commit_message)
-    git2r::push(repo,
-                name = "taskauto",
-                refspec = "refs/heads/master",
-                credentials = cred)
-
-}
-
-
-```
-
-
-
 
 
 ## Shiny Apps
@@ -218,6 +179,12 @@ Delivered at the European Geophysical Union General Assembly, this presentation 
 
 
 ## Workshops
+
+**Workshops on tree physiology and time series analyses**
+Within the context of the Dendro-ecology and Eco-physiology (DEEP)-Toolbox, I participated the devlopment and the delivery of several workshops starting in 2021. See the [DEEP-Website](https://deep-tools.netlify.app/) for additional information.
+
+<img src="https://d33wubrfki0l68.cloudfront.net/00889003a9c308968743de9471c6e2ac16ef266a/077e5/talk/nadef-2022-cpappas-rpeters-ahurley/featured_hu0d18b8b4e7255a4d80a6c16d37b758fa_78264_720x0_resize_q90_lanczos.jpg" width="600" align="middle" />
+
 
 **Using R in Hydrology** <img src="doc/img/rhydro_logo_alt.png" align="right" height = 150px, width = 150px />  
 This short course, delivered at the European Geophysical Union General Assembly, has been run in association with the [Young Hydrologic Society](https://younghs.com/) since 2017. 
