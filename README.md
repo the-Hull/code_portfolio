@@ -15,7 +15,7 @@ This repository contains (links to) code and/or data products, as well as presen
 ## Continuous Integration
 
 ### Continuous Integration for data curation
-The "weekly oil bulletin"-database is generated through a CI-runner that executes code every week to generate download links from scraped meta data. A database is updated and relevant logs written to file for easy curation and error handling.
+The "weekly oil bulletin"-database holds fule prices for European countries. It is generated through a CI-runner that executes code every week to generate download links from scraped meta data. The database is updated and relevant logs written to file for easy curation and error handling.  
 **links:** [GitHub repository (weekly_oil_bulletin)](https://github.com/the-Hull/weekly_oil_bulletin) 
 
 
